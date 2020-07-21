@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha models/specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geczirebeka/w6_d2_painter_lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geczirebeka/w6_d2_painter_lab/issues"
+  },
+  "homepage": "https://github.com/geczirebeka/w6_d2_painter_lab#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
