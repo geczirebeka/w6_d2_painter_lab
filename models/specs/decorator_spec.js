@@ -56,5 +56,5 @@ describe('Decorator', function() {
         decorator.paintRoom(room);
         const actual = room.isPainted;
         assert.strictEqual(actual, true);
-    })
+    });
 });

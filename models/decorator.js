@@ -22,6 +22,10 @@ Decorator.prototype.hasEnoughPaint = function(room) {
     return room.area <= this.totalLitresInStock(); 
 };
 
-Decorator.prototype.paintRoom
+Decorator.prototype.paintRoom = function(room) {
+    if (this.hasEnoughPaint(room)) {
+        room.paint();
+    };
+};
 
 module.exports = Decorator;
